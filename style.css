@@ -1,0 +1,297 @@
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    outline: solid 2px red;
+}
+
+.nav {
+    padding-left: 0;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    margin-left: 620px;
+    gap: 55px;
+    padding-top: 7px;
+}
+
+.link_nav {
+    color: #95E1D3;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.logo {
+    color: #95E1D3;
+    display: inline;
+    font-size: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+.head {
+    display: flex;
+}
+
+.active {
+    position: relative;
+    color: #F38181;
+
+}
+
+.active::before {
+    content: '';
+    bottom: -10px;
+    left: 0;
+    position: absolute;
+    width: 52px;
+    height: 3px;
+    background-color: #F38181;
+}
+
+.we_work_with {
+    font-size: 24px;
+    font-family: "Kaushan Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    padding-top: 68px;
+    margin: 0;
+}
+
+.amazing_services {
+    position: relative;
+    font-size: 30px;
+    font-size: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    margin: 0;
+    padding-top: 20px;
+}
+
+.amazing_services::before {
+    content: '';
+    bottom: -40px;
+    left: 47.5%;
+    position: absolute;
+    width: 60px;
+    height: 4px;
+    background-color: #F38181;
+}
+
+.clock {
+    width: 38px;
+    height: 37px;
+}
+
+.photography {
+    text-transform: uppercase;
+    color: #333333;
+}
+
+.description {
+    font-size: 15px;
+    line-height: 22px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #B6B6B6;
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+
+.info_with_svgs {
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    margin-top: 109px;
+    gap: 73.22px;
+}
+
+.svg_and_div {
+    padding-left: 0;
+    display: flex;
+    list-style: none;
+    gap: 18.21px;
+    width: 327.78px;
+}
+
+.we_work_with_second {
+
+    font-size: 24px;
+    font-family: "Kaushan Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    padding-top: 100px;
+    margin: 0;
+}
+
+.amazing_services_second {
+    position: relative;
+    font-size: 30px;
+    font-size: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    margin: 0;
+    padding-top: 20px;
+}
+
+.amazing_services_second::before {
+    content: '';
+    bottom: -40px;
+    left: 47.5%;
+    position: absolute;
+    width: 60px;
+    height: 4px;
+    background-color: #F38181;
+}
+
+.who_we_are {
+    color: #B6B6B6;
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    padding-top: 85px;
+    padding-bottom: 27px;
+    margin: 0;
+}
+
+.photos_of_mens {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+.men {
+    position: relative;
+    background: url(photos/first_man.jpg);
+    width: 380px;
+    height: 470px;
+}
+
+.overlay {
+    position: absolute;
+    left: -10px;
+    right: 0;
+    bottom: 10px;
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    background: linear-gradient(180.00deg, rgba(239, 139, 138, 0.8), rgba(229, 207, 130, 0.8) 100%);
+    transition: 0.3s;
+}
+
+.men:hover .overlay {
+    height: 100%;
+}
+
+.men_second {
+    position: relative;
+    background: url(photos/second-man.jpg);
+    width: 380px;
+    height: 470px;
+}
+
+.men_second:hover .overlay {
+    height: 100%;
+}
+
+.men_third {
+    position: relative;
+    background: url(photos/third-man.jpg);
+    width: 380px;
+    height: 470px;
+}
+
+.men_third:hover .overlay {
+    height: 100%;
+}
+
+.names {
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 11px;
+}
+
+.activity {
+    color: #B6B6B6;
+    font-size: 15px;
+    text-align: center;
+    display: block;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.line {
+    width: 100%;
+    background-color: #B6B6B6;
+    height: 1px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 22px;
+    padding-bottom: 20px;
+}
+
+.info_footer {
+    font-size: 14px;
+    color: #333333;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.last_word_info {
+    color: #F38181;
+    text-decoration: none;
+}
+
+input {
+    height: 39px;
+    width: 230px;
+    border-radius: 0;
+    border: none;
+    outline: solid 1px #B6B6B6;
+}
+
+.button {
+    text-transform: uppercase;
+    background-color: #95E1D3;
+    width: 150px;
+    height: 40px;
+    border: none;
+    color: #fff;
+}
+
+.button:hover {
+    background-color: #8ac2b8;
+}
