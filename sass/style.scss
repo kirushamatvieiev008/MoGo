@@ -1,59 +1,59 @@
 .container {
     width: 1200px;
     margin: 0 auto;
-    outline: solid 2px red;
+    outline: solid 20px red;
 }
 
-.nav {
-    padding-left: 0;
-    display: flex;
-    list-style: none;
-    margin: 0;
-    margin-left: 620px;
-    gap: 55px;
-    padding-top: 7px;
-}
+// .nav {
+//     padding-left: 0;
+//     display: flex;
+//     list-style: none;
+//     margin: 0;
+//     margin-left: 620px;
+//     gap: 55px;
+//     padding-top: 7px;
+// }
 
-.link_nav {
-    color: #95E1D3;
-    text-decoration: none;
-    font-size: 14px;
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-}
+// .link_nav {
+//     color: #95E1D3;
+//     text-decoration: none;
+//     font-size: 14px;
+//     font-family: "Montserrat", sans-serif;
+//     font-optical-sizing: auto;
+//     font-weight: 400;
+//     font-style: normal;
+// }
 
-.logo {
-    color: #95E1D3;
-    display: inline;
-    font-size: 30px;
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 700;
-    font-style: normal;
-}
+// .logo {
+//     color: #95E1D3;
+//     display: inline;
+//     font-size: 30px;
+//     font-family: "Montserrat", sans-serif;
+//     font-optical-sizing: auto;
+//     font-weight: 700;
+//     font-style: normal;
+// }
 
 
-.head {
-    display: flex;
-}
+// .head {
+//     display: flex;
+// }
 
-.active {
-    position: relative;
-    color: #F38181;
+// .active {
+//     position: relative;
+//     color: #F38181;
 
-}
+// }
 
-.active::before {
-    content: '';
-    bottom: -10px;
-    left: 0;
-    position: absolute;
-    width: 52px;
-    height: 3px;
-    background-color: #F38181;
-}
+// .active::before {
+//     content: '';
+//     bottom: -10px;
+//     left: 0;
+//     position: absolute;
+//     width: 52px;
+//     height: 3px;
+//     background-color: #F38181;
+// }
 
 .we_work_with {
     font-size: 24px;
@@ -280,7 +280,7 @@ input {
     width: 230px;
     border-radius: 0;
     border: none;
-    outline: solid 1px #B6B6B6;
+    outline: solid 19px #B6B6B6;
 }
 
 .button {
