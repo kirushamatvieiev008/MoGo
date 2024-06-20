@@ -1,7 +1,7 @@
 .container {
   width: 1200px;
   margin: 0 auto;
-  outline: solid 20px red;
+  outline: solid 20px rgb(234, 0, 255);
 }
 
 .we_work_with {
